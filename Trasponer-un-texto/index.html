@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto convertido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="Logo/Logo_del_Ministerio_de_Tecnologías.png" alt="logo mintic">
+            <h1>Reverso de Texto</h1>
+            <img src="Logo/LOGO_PLAN_DE_DESARROLLO_COLOMBIA_POTENCIA_DE_LA_VIDA_2022-2026.png" alt="logo de colombia">
+        </header>
+        <main>
+            <div class="fibo">
+                <form onsubmit="return false;">
+                    <h2 class="saludo">Ingrese un texto para invertir</h2>
+                    <label for="texto">Texto:</label>
+                    <textarea id="texto" rows="5" placeholder="Ingresa el texto aquí"></textarea>
+                    <button class="mostrar" id="btn">Invertir</button>
+                    <div class="resultado" id="resultado">
+                        <h2>Texto Invertido:</h2>
+                        <p id="reversedText"></p>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
